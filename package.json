@@ -1,0 +1,22 @@
+{
+  "name": "techpay",
+  "version": "1.0.0",
+  "description": "API for TechPay",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "harsh tomar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^5.0.9",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.6.3"
+  }
+}
